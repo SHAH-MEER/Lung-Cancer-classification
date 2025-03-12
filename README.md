@@ -12,7 +12,7 @@ This project focuses on predicting the likelihood of lung cancer using machine l
 ## 🔄 Process Workflow
 ### 1️⃣ Data Import & Inspection
 - 📥 Load dataset into a Pandas DataFrame
-- 🔍 Check data structure using `.info()`
+- 🔍 Check data structure
 - 🔢 Convert categorical target variable to numerical format
 
 ### 2️⃣ Exploratory Data Analysis (EDA)
@@ -22,7 +22,6 @@ This project focuses on predicting the likelihood of lung cancer using machine l
 ### 3️⃣ Data Preprocessing
 - 📌 Separate feature matrix `X` and target vector `y`
 - 🔀 Split data into training and testing sets (80% training, 20% testing)
-- 🎭 Encode categorical variables if necessary
 
 ### 4️⃣ Model Training & Evaluation
 - 🤖 **Logistic Regression:** Hyperparameter tuning using GridSearchCV, evaluate accuracy and classification report
